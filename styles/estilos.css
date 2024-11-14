@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=New+Amsterdam&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Arvo";
+    font-weight: 100;
+}
+img{
+    max-width: 100%;
+}
+header{
+    background-image: url(../assets/img/imagen1.png);
+    height: 800px;
+}
+h2{
+    color: rgb(250, 166, 10);
+    font-size: 5em;
+}
+.encabezado{
+    text-align: center;
+    padding-top: 2em;
+    width: 100%;
+}
+button {
+    margin-top: 20px;
+    background-color: #ff9900;
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.boton{
+    margin-top: 6em;
+    width: 100%;
+    text-align: center;
+}
+.parte2{
+    display: flex;
+    margin: 2em;
+    padding: 20px;
+    justify-content: space-around;
+    vertical-align: bottom;
+}
+.titulo{
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+.container{
+    width: 45%;
+}
+p{
+    color: gray;
+}
+.parte3{
+    display: flex;
+    margin: 2em;
+    padding: 20px;
+    justify-content: space-around;
+    vertical-align: bottom;
+}
+.container1{
+    width: 33%;
+}
+.parte4{
+    background-image: url(../assets/img/imagen4.png);
+    height: 500px;
+    display: flex;
+}
+.container2{
+    width: 45%;
+    margin: 30px;
+}
+.parte5{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    background-color: #ff9900;
+    color: white;
+}
+.color{
+    color: white;
+}
+footer{
+    background-color: #ff9900;
+    box-shadow: 0px 0px 20px 0px;
+    text-align: center;
+    height: 35px;
+}
+.let{
+    color: white;
+}
